@@ -33,6 +33,12 @@ export const Nav = styled.nav`
 
   h1 {
     font-weight: 600;
+    font-size: 3rem;
+  }
+
+  img {
+    width: 100px;
+    border-radius: 50%;
   }
 
   @media (max-width: 768px) {

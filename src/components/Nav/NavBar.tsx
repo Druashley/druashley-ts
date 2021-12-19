@@ -8,9 +8,11 @@ const NavBar: React.FC = () => {
       <Container>
         <Nav>
           <h1>Druashley</h1>
+
+          <img src={"./images/me.png"} alt="" />
           <div>
-            <div>Projects</div>
-            <div>Resume</div>
+            <h2>Projects</h2>
+            <h2>Resume</h2>
           </div>
         </Nav>
       </Container>
