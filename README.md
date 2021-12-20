@@ -1,5 +1,5 @@
 # Portfolio Website
 
-live - Demo: TBD
+## Goal: implement TS and styled components
 
-Goal: implement TS and styled components
+live - Demo: https://www.druashley.com/

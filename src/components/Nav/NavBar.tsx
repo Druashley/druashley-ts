@@ -3,19 +3,8 @@ import { StyledNavBar, Nav } from "../styles/NavBar.styled";
 import { Container } from "../styles/Container.styled";
 
 const NavBar: React.FC = () => {
-  return (
-    <StyledNavBar>
-      <Container>
-        <Nav>
-          <h1>Druashley</h1>
-
-          <img src={"./images/me.png"} alt="" />
-          <div>
-            <h2>Projects</h2>
-            <h2>Resume</h2>
-          </div>
-        </Nav>
-      </Container>
+  const wavesSVG = (): JSX.Element => {
+    return (
       <div className="custom-shape-divider-top-1639852579">
         <svg
           data-name="Layer 1"
@@ -39,6 +28,22 @@ const NavBar: React.FC = () => {
           ></path>
         </svg>
       </div>
+    );
+  };
+  return (
+    <StyledNavBar>
+      <Container>
+        <Nav>
+          <h1>Druashley</h1>
+
+          <img src={"./images/me.png"} alt="" />
+          <div>
+            <h2>Projects</h2>
+            <h2>Resume</h2>
+          </div>
+        </Nav>
+      </Container>
+      {wavesSVG()}
     </StyledNavBar>
   );
 };

@@ -53,10 +53,10 @@ const Projects: IProject[] = [
     id: 3,
     title: "druashley.com",
     description:
-      "This is my portfoilio website. You're currently on this website. I used this project to learn Typscript and Styled-components. Reaviz is an npm package I used to create the bubble charts.",
+      "This is my portfoilio website. You're currently on this website. I used this project to learn Typscript and Styled-components. Reaviz is an npm package I used to create the bubble charts. The project is hosted on a vultr server.",
     technologies: [
-      { key: "Reaviz", data: 22 },
-      { key: "Styled-Components", data: 30 },
+      { key: "Reaviz", data: 25 },
+      { key: "Styled-Components", data: 55 },
       { key: "Vultr", data: 15 },
       { key: "Nginx", data: 15 },
       { key: "CertBot", data: 15 },
@@ -65,6 +65,21 @@ const Projects: IProject[] = [
     ],
     url: "https://www.druashley.com/",
     github: "https://github.com/Druashley/druashley-ts",
+  },
+
+  {
+    id: 4,
+    title: "Pat Mcafee Soundboard",
+    description:
+      "Pat Mcafee runs a daily sports podcast and I created a soundboard that showcases some of the popular phrases said on the show. An AWS S3 bucket is used to store the audio clips. This was my first project I deployed with React and TailwindCSS. Please note - some of the soundbites may have NSFW language. The hardest part of the project is getting the soundbites.",
+    technologies: [
+      { key: "TailwindCSS", data: 30 },
+      { key: "AWS S3", data: 30 },
+      { key: "Audicity", data: 25 },
+      { key: "React", data: 55 },
+    ],
+    url: "https://druashley.github.io/PMI-Soundboard/",
+    github: "https://github.com/Druashley/PMI-Soundboard",
   },
 ];
 
