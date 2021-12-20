@@ -17,6 +17,10 @@ export const StyledCard = styled.div<Props>`
   h3 {
     text-align: center;
   }
+  a {
+    margin-right: 0.25rem;
+    color: #98a57b;
+  }
 
   & > div {
     flex: 1;
@@ -24,5 +28,6 @@ export const StyledCard = styled.div<Props>`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    align-items: center;
   }
 `;
