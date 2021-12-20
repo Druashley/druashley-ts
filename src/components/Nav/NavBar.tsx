@@ -36,11 +36,14 @@ const NavBar: React.FC = () => {
         <Nav>
           <h1>Druashley</h1>
 
-          <img src={"./images/me.png"} alt="" />
-          <div>
+          <img
+            src={"https://druashley.s3.us-west-1.amazonaws.com/me.png"}
+            alt=""
+          />
+          {/* <div>
             <h2>Projects</h2>
             <h2>Resume</h2>
-          </div>
+          </div> */}
         </Nav>
       </Container>
       {wavesSVG()}
