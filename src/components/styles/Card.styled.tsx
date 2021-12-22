@@ -14,6 +14,10 @@ export const StyledCard = styled.div<Props>`
   padding: 1rem;
   flex-direction: ${(props) => props.layout};
 
+  h2 {
+    font-size: 2em;
+  }
+
   h3 {
     text-align: center;
   }
@@ -29,5 +33,9 @@ export const StyledCard = styled.div<Props>`
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    p {
+      text-align: left;
+    }
   }
 `;
