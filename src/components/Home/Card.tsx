@@ -1,6 +1,7 @@
 import React from "react";
 import { BubbleChart } from "reaviz";
 import { StyledCard } from "../styles/Card.styled";
+import { StyledButton } from "../styles/Button.styled";
 
 import { IProject } from "../../Projects";
 
@@ -14,12 +15,16 @@ const Card: React.FC<Props> = ({ project }: Props) => {
       <div>
         <h2>{project.title}</h2>
         <div>
-          <a href={project.url} target="_blank" rel="noreferrer">
-            Demo
-          </a>
-          <a href={project.github} target="_blank" rel="noreferrer">
-            Github
-          </a>
+          <StyledButton>
+            <a href={project.url} target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          </StyledButton>
+          <StyledButton>
+            <a href={project.github} target="_blank" rel="noreferrer">
+              Github
+            </a>
+          </StyledButton>
         </div>
         <p>{project.description}</p>
       </div>

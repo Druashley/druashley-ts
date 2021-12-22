@@ -18,8 +18,8 @@ export const StyledCard = styled.div<Props>`
     text-align: center;
   }
   a {
-    margin-right: 0.25rem;
-    color: #98a57b;
+    text-decoration: none;
+    color: #000;
   }
 
   & > div {

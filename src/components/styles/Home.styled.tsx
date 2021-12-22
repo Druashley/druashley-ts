@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const StyledHomeHeader = styled.div`
   margin-top: 15rem;
 
+  background: linear-gradient(to bottom right, #d1e8e4, #eae7c6);
+  padding: 3rem;
+  border-radius: 2rem;
+
   p {
     opacity: 100%;
     padding: 0 1.5rem 1rem 1.5rem;
@@ -15,7 +19,8 @@ export const StyledHomeHeader = styled.div`
     flex-direction: column;
     p {
       line-height: 2.5rem;
-      font-size: 1.5rem;
+      font-size: 1.75rem;
+      padding: 0;
     }
   }
 `;
