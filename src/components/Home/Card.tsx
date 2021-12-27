@@ -9,7 +9,7 @@ interface Props {
   project: IProject;
 }
 
-const Card: React.FC<Props> = ({ project }: Props) => {
+const Card: React.FC<Props> = ({ project }) => {
   return (
     <StyledCard layout={project.id % 2 === 0 ? "row-reverse" : "row"}>
       <div>

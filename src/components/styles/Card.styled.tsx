@@ -19,6 +19,7 @@ export const StyledCard = styled.div<Props>`
   }
 
   h3 {
+    font-size: 2em;
     text-align: center;
   }
   a {
