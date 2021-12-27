@@ -2,13 +2,16 @@ import React from "react";
 import { StyledFooter } from "../styles/Footer.style";
 import { Container } from "../styles/Container.styled";
 import { Flex } from "../styles/Flex.styled";
+import { StyledLogo } from "../styles/Logo.styled";
 const Footer: React.FC = () => {
   return (
     <StyledFooter>
       <Container>
         <Flex>
           <ul>
-            <li>Druashley - A frontend web developer</li>
+            <li>
+              <StyledLogo>Druashley</StyledLogo>
+            </li>
             <li>
               <a
                 href="https://twitter.com/Dru_ashley"
@@ -29,7 +32,7 @@ const Footer: React.FC = () => {
               </a>
             </li>
             <li>
-              <p>👋</p>
+              <p className="icon">🦆</p>
             </li>
           </ul>
         </Flex>

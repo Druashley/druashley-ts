@@ -1,6 +1,7 @@
 import React from "react";
 import { StyledNavBar, Nav } from "../styles/NavBar.styled";
 import { Container } from "../styles/Container.styled";
+import { StyledLogo } from "../styles/Logo.styled";
 
 const NavBar: React.FC = () => {
   const wavesSVG = (): JSX.Element => {
@@ -34,7 +35,7 @@ const NavBar: React.FC = () => {
     <StyledNavBar>
       <Container>
         <Nav>
-          <h1>Druashley</h1>
+          <StyledLogo>Druashley</StyledLogo>
 
           <img
             src={"https://druashley.s3.us-west-1.amazonaws.com/me.png"}

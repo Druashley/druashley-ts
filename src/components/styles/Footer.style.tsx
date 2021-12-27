@@ -4,6 +4,7 @@ export const StyledFooter = styled.footer`
   background-color: #975d69;
   color: #fff;
   padding: 5rem 0 3rem;
+  line-height: 1;
 
   ul {
     list-style-type: none;
@@ -45,5 +46,9 @@ export const StyledFooter = styled.footer`
     75% {
       transform: rotate(-15deg);
     }
+  }
+  .icon {
+    font-size: 2.5rem;
+    margin: 0;
   }
 `;
