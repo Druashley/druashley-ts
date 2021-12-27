@@ -7,9 +7,15 @@ export const StyledFooter = styled.footer`
 
   ul {
     list-style-type: none;
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 1rem;
+    justify-items: center;
+    margin: auto;
   }
+
   ul li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
   }
   a {
     text-decoration: none;
@@ -22,5 +28,22 @@ export const StyledFooter = styled.footer`
 
   @media (max-width: 768px) {
     text-align: center;
+  }
+
+  li:hover ~ li p {
+    animation: wave-animation 0.3s infinite;
+  }
+
+  @keyframes wave-animation {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
   }
 `;

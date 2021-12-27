@@ -18,15 +18,18 @@ const Footer: React.FC = () => {
                 Twitter
               </a>
             </li>
+
             <li>
-              {" "}
               <a
                 href="https://github.com/Druashley"
                 target="_blank"
                 rel="noreferrer"
               >
                 Github
-              </a>{" "}
+              </a>
+            </li>
+            <li>
+              <p>👋</p>
             </li>
           </ul>
         </Flex>
