@@ -14,8 +14,15 @@ export const StyledCard = styled.div<Props>`
   padding: 1rem;
   flex-direction: ${(props) => props.layout};
 
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
   h2 {
     font-size: 2em;
+    padding: 0.5rem 0rem;
+    text-align: center;
   }
 
   h3 {

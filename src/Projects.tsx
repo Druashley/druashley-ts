@@ -48,9 +48,22 @@ const Projects: IProject[] = [
     url: "https://nbav-2-rkw3y.ondigitalocean.app/",
     github: "https://github.com/Druashley/nbav2",
   },
-
   {
     id: 3,
+    title: "Quick List",
+    description:
+      "This is a mobile focused app for making quick lists. The main goal with this project was to refine my typescript ability and build a tool for myself to use. Local storage is used to save lists.",
+    technologies: [
+      { key: "Styled-Components", data: 35 },
+      { key: "TypeScript", data: 50 },
+      { key: "React", data: 50 },
+    ],
+    url: "https://druashley.github.io/quicklist/",
+    github: "https://github.com/Druashley/quicklist",
+  },
+
+  {
+    id: 4,
     title: "druashley.com",
     description:
       "This is my portfoilio website. You're currently on this website. I used this project to learn Typscript and Styled-components. Reaviz is an npm package I used to create the bubble charts. The project is hosted on a vultr server.",
@@ -68,7 +81,7 @@ const Projects: IProject[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Pat Mcafee Soundboard",
     description:
       "Pat Mcafee runs a daily sports podcast and I created a soundboard that showcases some of the popular phrases said on the show. An AWS S3 bucket is used to store the audio clips. This was my first project I deployed with React and TailwindCSS. Please note - some of the soundbites may have NSFW language. The hardest part of the project is getting the soundbites.",

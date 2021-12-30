@@ -14,7 +14,7 @@ const Card: React.FC<Props> = ({ project }) => {
     <StyledCard layout={project.id % 2 === 0 ? "row-reverse" : "row"}>
       <div>
         <h2>{project.title}</h2>
-        <div>
+        <div className="button-container">
           <StyledButton>
             <a href={project.url} target="_blank" rel="noreferrer">
               Demo
