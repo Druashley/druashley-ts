@@ -66,9 +66,8 @@ const Projects: IProject[] = [
     id: 4,
     title: "druashley.com",
     description:
-      "This is my portfoilio website. You're currently on this website. I used this project to learn Typscript and Styled-components. Reaviz is an npm package I used to create the bubble charts. The project is hosted on a vultr server.",
+      "This is my portfoilio website. You're currently on this website. I used this project to learn Typscript and Styled-components. The project is hosted on a vultr server.",
     technologies: [
-      { key: "Reaviz", data: 25 },
       { key: "Styled-Components", data: 55 },
       { key: "Vultr", data: 15 },
       { key: "Nginx", data: 15 },

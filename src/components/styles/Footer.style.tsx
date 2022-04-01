@@ -13,6 +13,7 @@ export const StyledFooter = styled.footer`
     grid-gap: 1rem;
     justify-items: center;
     margin: auto;
+    padding-inline-start: 0;
   }
 
   ul li {

@@ -9,10 +9,13 @@ export const StyledCard = styled.div<Props>`
   align-items: start;
   background-color: #fff;
   border-radius: 1rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.15);
   margin: 2.5rem 0;
   padding: 1rem;
   flex-direction: ${(props) => props.layout};
+
+  background:  ${(props) => props.layout === "row" ?  "linear-gradient(to bottom right, #eae7c6, #d1e8e4)" :  "linear-gradient(to bottom left, #d1e8e4, #eae7c6)" } ;
+
 
   .button-container {
     display: flex;
@@ -36,6 +39,20 @@ export const StyledCard = styled.div<Props>`
 
   & > div {
     flex: 1;
+  }
+  ul{
+    list-style-type: none;
+    justify-items: center;
+    margin: auto;
+    padding-inline-start: 0;
+    line-height: 1;
+    font-weight: bold;
+  }
+
+  li {
+    list-style: none;
+    text-align: center;
+    margin: 1rem;
   }
 
   @media (max-width: 768px) {
